@@ -1,0 +1,46 @@
+.body{background-image: url(image.jpg)}
+/*Add padding to containers*/
+.a{padding: 16px;}
+/* Full-width input fields*/
+
+input[type=passord]{width:100%;
+                    padding:15px;
+                    margin:5px 0 22px 0;
+                    display:none;
+                    background:#f1f1f1;
+                    box-sizing:border-box;
+                    }
+input[type=text]:focus, input[type=password]:focus {
+	background-color: transparent;image-rendering:blue;
+	outline:none;
+}
+
+/*Overwrite  default styles of hr */
+hr{
+ border:1px solid #f1f1f1;
+ margin-botton:25px;
+}
+/*Set a style for the submit/register button*/
+.registerbtn{
+	background-colour :#4CAF50;
+	color:white;
+	padding:16px 20px;
+	margin: 8px 0;
+	border:none;
+	cursor:pointer;
+	width:100%;
+	opacity:o.9; 
+}
+.registerbtn:hover{
+	opacity:1;
+}
+/*Add a blue text color to link*/
+.signin{
+	background-color:#f1f1f1;
+	text-align:center;
+
+}
+.PatientHistory{
+	height: 200px;
+	font-size: 14pt;
+}

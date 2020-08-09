@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="slide.css">
+    </head>
+    <body>
+            <body bgcolor ="pink">
+    <!--slideshow-container-->
+<div class="slideshow-container">
+    <!--Full-width images with number and caption text-->
+    <div class="mySlides fade">
+    <div class="numbertext">1/6
+    </div>
+    <img src="image18.jpg" style="width:20%">
+    <img src="image19.jpg" style="width:20%">
+    <img src="image20.jpg" style="width:20%">
+    <h5>Nothing like a good Scrub</h5>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2/6
+        </div>
+        <img src="image2.jpg" style="width:30%">
+        <img src="image3.jpg" style="width:20%">
+        <img src="image4.jpg" style="width:20%">
+       
+        <h5>beautiful nails for a beautiful woman</h5>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3/6
+            </div>
+            <img src="image12.jpg" style="width:20%">
+            <img src="image13.jpg" style="width:20%">
+            <img src="image26.jpg" style="width:20%">
+            <img src="image6.jpg" style="width:20%">
+          
+           <h5>Toes on point</h5>
+            </div>
+            
+        <div class="mySlides fade">
+            <div class="numbertext">4/6
+            </div>
+            <img src="image25.jpg" style="width: 20%">
+            <img src="image24.jpg" style="width:20%">   
+              <img src="image15.jpg" style="width:20%">
+              <img src="image16.jpg" style="width:20%">
+             
+           <h5>Our fabolous Eyebrow treatment will leave a smile on your face </h5>
+            </div>
+
+            
+        <div class="mySlides fade">
+            <div class="numbertext">5/6
+            </div>
+            <img src="image21.jpg" style="width:30%">
+            <img src="image22.jpg" style="width:25%">
+            <h5>Exclusive hennah designs just for you</h5>
+            </div>
+                      
+        <div class="mySlides fade">
+            <div class="numbertext">6/6</div>
+            <img src="image9.jpg" style="width:30%">       
+            <img src="image10.jpg" style="width:28%">
+            <h5>Home of comfort and Luxury!!!</h5>
+            <div class="text">
+            </div>
+            </div>
+    
+  <!--The dots/circles-->
+            <div style="text-align:center">    
+            <span class="dot" ></span>
+            <span class="dot" ></span>
+            <span class="dot" ></span>
+            <span class="dot" ></span>
+            <span class="dot" ></span>
+            <span class="dot" ></span>
+            <span class="dot" ></span>
+            <span class="dot" ></span>
+            <span class="dot" ></span>
+           </div>
+            
+            <script>
+           var slideIndex = 0;
+showSlides();
+
+function showSlides()
+{
+    var i;
+    var slides= document.getElementsByClassName("mySlides");
+    var dots =document.getElementsByClassName("dot");
+   for (i=0; i< slides.length; i++)
+    {
+        slides[i].style.display="none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length)
+    {slideIndex =1}
+    for(i=0; i< dots.length; i++)
+    {
+       dots[i].className.replace("active","");
+    }
+        slides[slideIndex-1].style.display="block";
+    dots[slideIndex-1].className +="active";
+    setTimeout(showSlides, 2000);
+    //Change image every 2 seconds
+}
+</script>
+</body>
+</html>

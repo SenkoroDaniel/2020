@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+       <style>
+ body{
+    background-color: powderblue;
+}
+</style>
+   </head>
+    <body>
+            <form></form>
+                                <label for="Phone number">Phone number: </label>
+                                <input type="phone"placeholder="123456789" name= " ">
+    </label><br>
+    
+                    <label for="appointment">Appointment:
+                          <input type="date" id="Appointment" name="Appointment">
+    </label><br>
+   <label for="appt">select a time:</label>
+    <input type="time" id="appt" name="appt"><br>
+     <input type="checkbox" id="Pedicure" name="pedicure">
+           <label for="pedicure">Pedicure </label>
+           <h3>Tsh 15,000/=</h3>
+             <input type="checkbox" id="manicure" name="manicure">
+                    <label for="manicure">manicure </label><br/>
+                    <h3>Tsh 15,000/=</h3>
+                    <input type="checkbox" id="Microblade lashes" name="Microblade lashes">
+                            <label for="Microblade lashes">Microblade lashes </label><br> 
+                            <h3>Tsh 7,000/=</h3>
+                             <input type="checkbox" id="Scrub" name="Scrub">
+                                     <label for="Scrub">Scrub </label><br>
+                                     <h3>Tsh 25,000/=</h3>
+                               <input type="checkbox" id="Hennah" name="Hennah">
+                                           <label for="Hennah">Hennah</label><br>
+                                           <h3>Tsh 7,000/=</h3>
+                                          <div class="button">
+        <a href="#"class="btn">Book Now</a>
+        </div>
+</form>
+    </body>
+</html>

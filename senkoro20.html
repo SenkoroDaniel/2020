@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRATION FORM </title>
+	<link rel="stylesheet" type="text/css" href="senkoro1.css">
+</head>
+<body><FORM action="action_page.php">
+	<div class="a" align="right-middle">
+		<h1>DOCTOR'S  APPOINTMENT</h1>
+		<p>Please fill in this form to make an appointement with A Doctor .</p><hr>
+		<label for="surname"> <b>Surname </b></label><input type="text" placeholder="Enter Surname" name="Surname" id="Surname" requred >
+		<label for="Othername "> <b>Other names </b></label><input type="text" placeholder="Enter Other names" name="Other names" id="Other names" requred ><br><br>
+		<div>
+			<label for"Gender"><b>Gender: </b></label> 
+			  <label for="Gender-male"> Male</label>
+			  <input type="radio" name="Gender-choice" value="choice-1"> 
+ 
+			  <label for="Gender-female"> Female</label>
+			  <input type="radio" name="Gender-choice" value="choice-2"> 
+			  
+			  <label for="Gender-other"> Other</label>
+			  <input type="radio" name="Gender-choice" value="choice-3"> <br><br>
+ 
+		</div>
+
+		<label for="PhoneNumber"> <b>Phone Number: </b></label>
+					<select>
+									<option></option>
+						<option>+255 </option>
+						<option>+256 </option>
+						<option>+257 </option>
+				 </select>
+                    <input type="text" name="PhoneNumber" id="PhoneNumber" requred ><br><br>
+
+		<label for="dateofbirth"> <b>Date of Birth </b></label><input type="date" name="dateofbirth" id="dateofbirth" requred ><br><br>
+
+		<label for="Email"> <b>Email <hr></b></label><input type="text" placeholder="Enter Email" name="email" id="email" requred ><br><br>
+		<label for="Address"> <b>Address<hr></b></label>
+		       	<input type="Text" placeholder="City" name="City" id="City" requred >
+				<input type="Text" placeholder="Residence" name="Residence" id="Residence" requred >  
+				<input type="Text" placeholder="Street Name" name="Street Name" id="Street Name" requred ><br><br>
+				
+				<input type="Text" placeholder="State/Province" name="State/Province" id="State/Province" requred ><br><br>
+				<input type="Text" placeholder="Postal/Zip code" name="Postal/Zip code" id="Postal/Zip code" requred >
+				<input type="Text" placeholder="Country" name="Country" id="Country" requred ><br><br><br>
+
+
+		<div>
+		  <hr><label for="PatientHistory"><b>Have you ever being Treated to our Hospital? : </b></label> 
+				<label for="Patient-choice">Yes</label>
+					<input type="radio" name="Patient-choice" value="choice-1"> 
+		 
+			<label for="Patient-choice"> No</label>
+					<input type="radio" name="Patient-choice" value="choice-2"><br><br> 
+		 
+		</div>	
+		<div>
+			<label for="cardnumber"> <b>If Yes, Then write your Card Number:</b></label>
+				<input type="text" name="cardnumber" id="cardnumber" requred ><br><br><br>
+		</div>
+		<div class="PatientHistory">
+			<label for="PatientHistory"> <b>Reasons for your last Appointment</b></label><br>
+ <textarea type="text" name="PatientHistory" id="PatientHistory" rows="5" style="height:200px;font-size:12pt;"requred > </textarea><br><br><br>
+		</div>
+
+		
+		<p><b>Appointment Details <hr> </b></p>
+		<div>
+			<label for="Choice"> <b>Choose a Doctor</b></label><br>
+
+					<input type="radio" name="Dr.Paul" ><label for="Dr.Paul"> <b>Dr.Paul</b></label><br>
+					<input type="radio" name="Dr.James" ><label for="Dr.James"> <b>Dr.James</b></label><br>
+					<input type="radio" name="Dr.Daniel" ><label for="Dr.Daniel"> <b>Dr.Daniel</b></label><br>
+					<input type="radio" name="Dr.Betrice" ><label for="Dr.Betrice"> <b>Dr.Betrice</b></label><br>
+					<input type="radio" name="Anyother" ><label for="AnyOther"> <b>Any Other</b></label><br><br><br>
+					
+		</div>
+		<div>
+			<label for="Appointmentform"> <b>Please select An appointment Date and time <hr></b></label><br>
+			<label for="date"> <b>Date: </b></label><input type="date" name="dateofappointment" id="dateofappointment" requred ><br><br>
+			<label for="time"> <b>Time: </b></label><input type="time" name="timeofappointment" id="timeofappointment" requred ><br><br><br><br>
+		</div>
+
+		<p><b>When Done you can click below to submit Your information</b></p>
+		<button type="submitt" class="BookNow">Book An Appointment Now </button>
+	</div> 
+
+   <div class="container signin"><p> Have ever filled this form before? If Yes,</p> <a href="#"> Just Book Only </a></div><br><br>
+</FORM>
+
+</body>
+</html>

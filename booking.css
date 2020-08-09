@@ -1,0 +1,21 @@
+
+body{
+        background-color: powderblue;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        height:-900vh;
+        font-family:'Montesarrat',sans-serif;
+        font-size:12px;
+        text-decoration:none;
+        }
+ 
+        input{
+    background-color:#eee;
+    border:none;
+    padding:10px 15px;
+    margin: 10px 0px;
+    
+    }
+    
